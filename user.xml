@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- XML file storing the details of the users for a "support ticket application.
+	Written by: Jalaluddin Qureshi, Assignment 1 Final, http5203 (Winter 2021), Humber College -->
+
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="user.xsd"> 
+	<!-- There are two categories of users: admin and clients.
+		All users are uniquely identified by their username (equivalent of user ID)	-->
+		
+	<!-- User passwords are "hashed" and generated using this online tool.
+		https://passwordsgenerator.net/md5-hash-generator/ -->
+	
+	<user userType="admin" userEmail="j.brock@gmail.com">  
+		<logInDetails userName="j.brock" userPassword="321AEB43D6F1B0B1EE48E510E9282E51"/>
+		<name>
+			<firstName>Jame</firstName>
+			<lastName>Brock</lastName>
+		</name>
+	</user>
+	
+	<user userType="client" userEmail="karen.s@yahoo.ca">
+		<logInDetails userName="karen293" userPassword="2F5D915C289CC9994905741303928EFF"/>
+		<name>
+			<firstName>Karen</firstName>
+			<middleName>Kate</middleName>
+			<lastName>Brown</lastName>
+		</name>
+	</user>
+	
+</users>
