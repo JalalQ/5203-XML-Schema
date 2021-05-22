@@ -3,6 +3,11 @@ In this project I have created XML and schema files for basic support ticket app
 
 ## XML and .XSD Scheme
 
+> The **Extensible Markup Language (XML)** is a simple, platform-independent standard for describing data within a structured format. In layman’s terms, it allows data to be tagged using descriptive names so both humans and computer applications can understand the meaning of different pieces of data.
+> 
+>  *Richards, Robert. Pro PHP XML and Web Services. Apress, 2007.*
+
+
 > One of the most common uses for **schemas** is to verify that an XML document is valid according to a defined set of rules. A schema can be used to validate: 
 > - The structure of elements and attributes. For example, a product must have a number and a size, and may optionally have an effDate (effective date). 
 > - The order of elements. For example, number must appear before size. 
@@ -11,6 +16,4 @@ In this project I have created XML and schema files for basic support ticket app
 > 
 > *Walmsley, Priscilla. "Definitive XML schema." (2012).*
 
-> The **Extensible Markup Language (XML)** is a simple, platform-independent standard for describing data within a structured format. In layman’s terms, it allows data to be tagged using descriptive names so both humans and computer applications can understand the meaning of different pieces of data.
-> 
->  *Richards, Robert. Pro PHP XML and Web Services. Apress, 2007.*
+
